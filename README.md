@@ -25,6 +25,7 @@ based on Arduino PID and PID AutoTune Libs, (c) Brett Beauregard<br>
   <li>stores settings in EEPROM</li>
   <li>projected runtime is displayed when changing settings</li>
   <li>thermistor safety: switches off when sensor shorts, breaks or is unplugged</li>
+  <li>make sure to adjust Tmax (default:60) & Tmin (default:-40) in the sketch to safe values for your heater setup before compiling!</li>
   <li>extensive testing has shown long-term stability (>2 weeks) and accuracy (+/-0.1°C)</li>
 </ul>
 </p>
