@@ -18,7 +18,7 @@ based on Arduino PID and PID AutoTune Libs, (c) Brett Beauregard<br>
   <li>designed around Arduino Uno with Robotdyn RGB 16x2 keypad shield, 100K NTC thermistor, standard DC/DC SSD and any 12V DC heating element</li>
   <li>minimized assembly time with ATX PSU & 3D printed case</li>
   <li>4 profiles for ramping (linear, oscillate, steps, sawtooth)</li>
-  <li>uses PID autotuning or manually set PID parameters</li>
+  <li>uses PID autotuning (only necessary once for a specific heater setup) or manually set PID parameters</li>
   <li>can heat or cool</li>
   <li>logging via USB serial</li>
   <li>external wire harness allows placing heater box in fridge for cooling below RT</li>
