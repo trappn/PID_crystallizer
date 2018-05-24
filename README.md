@@ -9,8 +9,19 @@ derived from:<br>
 "Sous Vide Controller", (c) Bill Earl - for Adafruit Industries<br>
 based on Arduino PID and PID AutoTune Libs, (c) Brett Beauregard<br>
 <br>
+
+<p>
+<ul>
+  <li>designed around Arduino Uno with  </li>
+  <li>  </li>
+  <li>  </li>
+  <li>  </li>
+</ul>
+</p>
+
 Usage:<br>
-<table>
+<table style="">
+  
   <tr>
    <td>right</td><td>start or next</td>
   </tr>
@@ -30,6 +41,6 @@ Usage:<br>
    <td>shift & -</td><td>PID parameter settings</td>
   </tr>
   <tr>
-   <td>shift & right</td><td>start ramp<td>
+   <td>shift & right</td><td>start ramp</td>
   </tr>
 </table>
