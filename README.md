@@ -10,7 +10,9 @@ derived from:<br>
 "Sous Vide Controller", (c) Bill Earl - for Adafruit Industries<br>
 based on Arduino PID and PID AutoTune Libs, (c) Brett Beauregard<br>
 </p>
-
+<p>
+ Used libraries: PID_v1.h, PID_AutoTune_v0.h, Wire.h, Adafruit_RGBLCDShield.h, SmoothThermistor.h, EEPROM.h
+</p>
 <p>
 <ul>
   <li>designed around Arduino Uno with Robotdyn RGB 16x2 keypad shield, 100K NTC thermistor and any 12V heating element</li>
