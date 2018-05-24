@@ -1,21 +1,29 @@
 # PID_crystallizer
 Arduino-based programmable ramping PID controller 
-
+<p>
 Crystalheater Controller<br>
 (c) N. Trapp @ Small Molecule Crystallography Center<br>
 ETH Zürich, 2018<br>
-
+</p>
+<p>  
 derived from:<br>
 "Sous Vide Controller", (c) Bill Earl - for Adafruit Industries<br>
 based on Arduino PID and PID AutoTune Libs, (c) Brett Beauregard<br>
-<br>
+</p>
 
 <p>
 <ul>
-  <li>designed around Arduino Uno with  </li>
-  <li>  </li>
-  <li>  </li>
-  <li>  </li>
+  <li>designed around Arduino Uno with Robotdyn RGB 16x2 keypad shield, 100K NTC thermistor and any 12V heating element</li>
+  <li>minimized assembly time with ATX PSU & 3D printed case</li>
+  <li>4 profiles for ramping (linear, oscillate, steps, sawtooth)</li>
+  <li>uses PID autotuning or manually set PID parameters</li>
+  <li>can heat or cool</li>
+  <li>logging via USB serial</li>
+  <li>external wire harness allows placing heater box in fridge for cooling below RT</li>
+  <li>stores settings in EEPROM</li>
+  <li>projected runtime is displayed when changing settings</li>
+  <li>thermistor safety: switches off when sensor shorts, breaks or is unplugged</li>
+  <li>extensive testing has shown long-term stability (>2 weeks) and accuracy (+/-0.1°C)</li>
 </ul>
 </p>
 
