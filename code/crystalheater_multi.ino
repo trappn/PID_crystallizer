@@ -1314,7 +1314,7 @@ void Ramp()
         lcd.print(int(Endpoint));
         lcd.write(1);
         lcd.print(F("C"));
-        lcd.print(F("    "));
+        lcd.print(F("      "));
       }
       
       setBacklight();  // set backlight based on state
